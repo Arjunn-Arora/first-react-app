@@ -1,0 +1,82 @@
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card{
+  height: 450px;
+  width: 700px;
+  display: inline-flex;
+  margin: 10px;
+  flex-direction: row;
+}
+.card-img{
+  height: 450px;
+  width: 290px;
+  float: left;
+  opacity: 40%;
+}
+.card-content{
+  align-items: end;
+  width: 410px;
+  height: 450px;
+  float: right;
+  text-align: center;
+  background-color: #f3eeeecf;
+  opacity: 60%;
+  padding: 2px;
+  color: black;
+}
+
+body{
+  background-image: url(https://m.media-amazon.com/images/I/31JfJ6dXD9L.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+li{
+  display: inline-flex;
+  list-style-type: none;
+}
+
+.wtch-btn{
+  background-color: beige;
+  color: black;
+  border: none;
+  padding: 8px;
+  margin: 0px;
+}
+
+.wtch-btn:hover{
+  color: beige;
+  background-color: black;
+  padding: 8px;
+}
+
+.read-the-docs {
+  color: #888;
+}

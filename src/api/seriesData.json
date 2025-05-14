@@ -1,0 +1,43 @@
+[
+    {
+      "id": "stranger-things",
+      "name": "Stranger Things",
+      "img_url": "https://m.media-amazon.com/images/M/MV5BMjg2NmM0MTEtYWY2Yy00NmFlLTllNTMtMjVkZjEwMGVlNzdjXkEyXkFqcGc@._V1_.jpg",
+      "rating": 8.7,
+      "description": "A group of young friends in 1980s Indiana witness supernatural forces and secret government exploits as they search for their missing friend.",
+      "cast": ["Millie Bobby Brown", "Finn Wolfhard", "David Harbour", "Winona Ryder"],
+      "genre": ["Drama", "Fantasy", "Horror", "Science Fiction", "Thriller"],
+      "watch_url": "https://www.netflix.com/title/80057281"
+    },
+    {
+      "id": "the-crown",
+      "name": "The Crown",
+      "img_url": "https://dnm.nflximg.net/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABT6-ilIJZPo41mx2cuziG5zyjn7BWGZZgBKTF7F8eheSGHPGzL8jiYiL9ie1lExbidAdcjqVmXZtCho0A8qMgY4UP5rJEbR6qtvNG5ZP3Ls_1FEqyPQTvTMNnybGFsb202NhmA.jpg?r=844",
+      "rating": 8.6,
+      "description": "Follows the political rivalries and romance of Queen Elizabeth II's reign and the events that shaped the second half of the twentieth century.",
+      "cast": ["Imelda Staunton", "Jonathan Pryce", "Elizabeth Debicki", "Dominic West"],
+      "genre": ["Biography", "Drama", "History"],
+      "watch_url": "https://www.netflix.com/title/80025678"
+    },
+    {
+      "id": "money-heist",
+      "name": "Money Heist",
+      "img_url": "https://resizing.flixster.com/ITt1FPrFePNR6FSqZrZK7BocG2U=/ems.cHJkLWVtcy1hc3NldHMvdHZzZWFzb24vUlRUVjEwMTMyOTMud2VicA==",
+      "rating": 8.2,
+      "description": "An enigmatic man known as The Professor recruits eight people with unique skills to carry out the biggest heist in recorded history — to print billions of euros in the Royal Mint of Spain.",
+      "cast": ["Álvaro Morte", "Úrsula Corberó", "Pedro Alonso", "Itziar Ituño"],
+      "genre": ["Action", "Crime", "Drama", "Mystery", "Thriller"],
+      "watch_url": "https://www.netflix.com/title/80192098"
+    },
+    {
+      "id": "squid-game",
+      "name": "Squid Game",
+      "img_url": "https://resizing.flixster.com/pEBczBamx-gHmTasBaajPymDTN0=/ems.cHJkLWVtcy1hc3NldHMvdHZzZXJpZXMvNjdhNjc3MDMtMThlNS00MTdmLWI5MGYtNjFkMjViZjJlZmFkLmpwZw==",
+      "rating": 8.0,
+      "description": "Hundreds of cash-strapped players accept a strange invitation to compete in children's games for a tempting prize, but the stakes are deadly.",
+      "cast": ["Lee Jung-jae", "Park Hae-soo", "Wi Ha-joon", "HoYeon Jung"],
+      "genre": ["Action", "Drama", "Mystery", "Thriller"],
+      "watch_url": "https://www.netflix.com/title/81040344"
+    }
+  ]
+  
