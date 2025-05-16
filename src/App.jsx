@@ -10,14 +10,16 @@ import React from 'react'
 // import { StateChallenge } from './components/StateChallenge';
 // import { LiftingStateUp } from './components/LiftingStateUp';
 // import { ToggleSwitch } from './project/toggleSwitch/ToggleSwitch';
-import { Todo } from './project/Todo/Todo';
+// import { Todo } from './project/Todo/Todo';
+import { UseStateChallenge } from './project/UseStateChallenge/UseStateChallenge';
+import Registration from './components/hooks/Registration';
 
 function App() {
 
   return (
     
     <React.Fragment>
-      <Todo />
+      <Registration />
     </React.Fragment>
 
   );

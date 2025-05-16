@@ -1,0 +1,75 @@
+/* SignupForm.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", sans-serif;
+    background: linear-gradient(135deg, #1e1e2f, #2d2d44);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-container {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(12px);
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.2);
+    width: 350px;
+    text-align: center;
+    color: #fff;
+}
+
+.signup-form h2 {
+    margin-bottom: 20px;
+    color: #00f2ff;
+}
+
+.signup-form input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    font-size: 14px;
+    outline: none;
+}
+
+.signup-form input::placeholder {
+    color: #ccc;
+}
+
+.signup-form button {
+    width: 100%;
+    padding: 12px;
+    background: #00f2ff;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-top: 15px;
+}
+
+.signup-form button:hover {
+    background: #00c8d4;
+}
+
+.signup-form p {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.signup-form a {
+    color: #00f2ff;
+    text-decoration: none;
+}
+
+.signup-form a:hover {
+    text-decoration: underline;
+}

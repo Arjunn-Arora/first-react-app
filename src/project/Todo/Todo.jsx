@@ -17,10 +17,10 @@ export const Todo = () => {
 
         if(!inputValue.content) return;
 
-        setTask((prev) => [...prev, inputValue.content]);
+        const ifTodoContentMatched = task.find((currElem) => currElem.content === inputValue.content)
 
-        if(task.includes(inputValue.content)){setInputValue(""); return;} 
-        console.log(task);
+        if(ifTodoContentMatched) return;
+        setTask((prev) => [...prev, {id: id, content: inputValue.content, checked: checked}]);
 
         setInputValue("");
 
