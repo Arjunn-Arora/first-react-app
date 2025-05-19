@@ -11,15 +11,18 @@ import React from 'react'
 // import { LiftingStateUp } from './components/LiftingStateUp';
 // import { ToggleSwitch } from './project/toggleSwitch/ToggleSwitch';
 // import { Todo } from './project/Todo/Todo';
-import { UseStateChallenge } from './project/UseStateChallenge/UseStateChallenge';
-import Registration from './components/hooks/Registration';
+// import { UseStateChallenge } from './project/UseStateChallenge/UseStateChallenge';
+// import Registration from './components/hooks/Registration';
+// import { LoginForm } from './components/hooks/LoginForm';
+import { UseEffect } from './components/hooks/UseEffect';
+import { EffectChallenge } from './components/hooks/EffectChallenge';
 
 function App() {
 
   return (
     
     <React.Fragment>
-      <Registration />
+      <EffectChallenge />
     </React.Fragment>
 
   );
